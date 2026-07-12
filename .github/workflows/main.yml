@@ -1,4 +1,4 @@
-name: main
+name: @
 
 on:
   push:
@@ -12,12 +12,12 @@ concurrency:
 
 jobs:
   main-windows:
-    uses: asottile/workflows/.github/workflows/tox.yml@v1.8.1
+    uses: pathum25/workflows/.github/workflows/tox.yml@v1.8.1
     with:
       env: '["py310"]'
       os: windows-latest
   main-linux:
-    uses: asottile/workflows/.github/workflows/tox.yml@v1.8.1
+    uses: pathum25/workflows/.github/workflows/tox.yml@v1.8.1
     with:
       env: '["py310", "py311", "py312", "py313"]'
       os: ubuntu-latest
