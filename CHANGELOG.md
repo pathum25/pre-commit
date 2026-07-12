@@ -4,18 +4,18 @@
 ### Features
 - `pre-commit hook-impl`: allow `--hook-dir` to be missing to enable easier
   usage with `git` 2.54+ git hooks.
-    - #3662 PR by @asottile.
+    - #3662 PR by @pathum25.
 
 ### Fixes
 - `pre-commit hook-impl`: `--hook-type` is required.
-    - #3661 PR by @asottile.
+    - #3661 PR by @pathum25.
 
 4.5.1 - 2025-12-16
 ==================
 
 ### Fixes
 - Fix `language: python` with `repo: local` without `additional_dependencies`.
-    - #3597 PR by @asottile.
+    - #3597 PR by @pathum25.
 
 4.5.0 - 2025-11-22
 ==================
@@ -31,7 +31,7 @@
 - Add `--fail-fast` option to `pre-commit run`.
     - #3528 PR by @JulianMaurin.
 - Upgrade `ruby-build` / `rbenv`.
-    - #3566 PR by @asottile.
+    - #3566 PR by @ pathum25.
     - #3565 issue by @MRigal.
 - Add `language: unsupported` / `language: unsupported_script` as aliases
   for `language: system` / `language: script` (which will eventually be
